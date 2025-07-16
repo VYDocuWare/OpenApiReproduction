@@ -43,9 +43,9 @@ namespace OpenApiReproduction
                 return forecast;
             })
             .WithName("GetWeatherForecast");
+            app.MapOpenApi();
 
             app.Run();
-            app.MapOpenApi();
         }
     }
 }
