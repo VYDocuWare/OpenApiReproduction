@@ -1,0 +1,6 @@
+@OpenApiReproduction_HostAddress = http://localhost:5147
+
+GET {{OpenApiReproduction_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
